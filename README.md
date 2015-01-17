@@ -8,7 +8,7 @@ A more complete solution for deathrun servers. With flexibility and simplicity i
 
 *Priority System
 
-*Prevention of consecutive CTing
+*Prevention of consecutive Ting
 
 *Integrated timed respawns
 
