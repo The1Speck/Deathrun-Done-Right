@@ -16,3 +16,4 @@ A more complete solution for deathrun servers. With flexibility and simplicity i
 
 *Rankings
 
+*Rewarding the CT who kills the T (letting them be T next round).
