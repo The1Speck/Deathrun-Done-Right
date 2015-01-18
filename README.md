@@ -6,16 +6,16 @@ A more complete solution for deathrun servers. With flexibility and simplicity i
 
 ####Commands
 
-* !queue
+* **sm_queue** Opens up main Queue menu.
 
 
 ##Features (Planned)
 
-* ~~Queue system~~
+* ~~Queue system~~ Added in v1.0
 
 * Priority System
 
-* ~~Prevention of consecutive Ting~~
+* ~~Prevention of consecutive Ting~~ Added in v1.0
 
 * Integrated timed respawns
 
