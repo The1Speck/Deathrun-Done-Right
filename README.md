@@ -2,18 +2,25 @@
 A more complete solution for deathrun servers. With flexibility and simplicity in mind.
 
 
+##Features (Current)
+
+###Commands
+
+* !queue
+
+
 ##Features (Planned)
 
-*Queue system
+* Queue system
 
-*Priority System
+* Priority System
 
-*Prevention of consecutive Ting
+* Prevention of consecutive Ting
 
-*Integrated timed respawns
+* Integrated timed respawns
 
-*Optional 1v1 finish
+* Optional 1v1 finish
 
-*Rankings
+* Rankings
 
-*Rewarding the CT who kills the T (letting them be T next round).
+* Rewarding the CT who kills the T (letting them be T next round).
