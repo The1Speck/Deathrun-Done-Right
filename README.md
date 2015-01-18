@@ -4,18 +4,18 @@ A more complete solution for deathrun servers. With flexibility and simplicity i
 
 ##Features (Current)
 
-###Commands
+####Commands
 
 * !queue
 
 
 ##Features (Planned)
 
-* Queue system
+* ~~Queue system~~
 
 * Priority System
 
-* Prevention of consecutive Ting
+* ~~Prevention of consecutive Ting~~
 
 * Integrated timed respawns
 
