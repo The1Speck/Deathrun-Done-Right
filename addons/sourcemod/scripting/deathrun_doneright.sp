@@ -7,7 +7,7 @@
 
 #define TEAM_T 2
 #define TEAM_CT 3
-#define PLUGIN_VERSION "0.1"
+#define PLUGIN_VERSION "1.0"
 
 new Handle:deathrundr_version = INVALID_HANDLE;
 new Handle:deathrundr_enable = INVALID_HANDLE;
@@ -94,7 +94,6 @@ OpenQueueClientMenu(client)
 		Format(display, sizeof(display), "%N", GetArrayCell(TQueue, i));
 		AddMenuItem(menu, info, display, ITEMDRAW_DISABLED);
 	}
-		AddMenu
 	
 	DisplayMenu(menu, client, MENU_TIME_FOREVER);
 }
