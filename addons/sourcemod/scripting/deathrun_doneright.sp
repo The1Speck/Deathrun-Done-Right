@@ -61,7 +61,7 @@ public OnPluginStart()
 	deathrundr_rounds_as_t = CreateConVar("deathrundr_rounds_as_t", "1", "How many consecutive rounds can you play as T?", 0, true, 1.0);
 	deathrundr_block_radio = CreateConVar("deathrundr_block_radio", "1", "Should radio commands be blocked?", 0, true, 0.0, true, 1.0);
 	deathrundr_enable_queue = CreateConVar("deathrundr_enable_queue", "1", "Enable or disable the T-queue implementation. 0 disabled, 1 - enabled.", 0, true, 0.0, true, 1.0);
-	//deathrundr_needed_players = CreateConVar("deathrundr_needed_players", "3", "Set how many players are needed to enable autoswitching", 0, true, 1.0);
+	deathrundr_needed_players = CreateConVar("deathrundr_needed_players", "3", "Set how many players are needed to enable autoswitching", 0, true, 1.0);
 	
 	HookEvent("round_end", Event_RoundEnd);
 	
@@ -216,8 +216,6 @@ public Event_RoundEnd(Handle:event, const String:name[], bool:dontBroadcast)
 				oT = i;
 		}
 		
-		PrintToChatAll("New T: %N", nT);
-		
 		if(nT != -1 && nT != 0 && oT != -1)
 		{
 			CS_SwitchTeam(nT, TEAM_T);
@@ -241,7 +239,6 @@ public Action:BlockRadio(client, const String:command[], args)
 public Action:Cmd_JoinTeam(client, const String:command[], args)
 {
 	new CurrentPlayers = GetTeamClientCount(TEAM_CT) + GetTeamClientCount(TEAM_T);
-	PrintToChat(client, "CurrentPlayers: %d", CurrentPlayers);
 	if(GetConVarBool(deathrundr_enable) && CurrentPlayers >= GetConVarInt(deathrundr_needed_players) && GetTeamClientCount(TEAM_T) == 1)
 	{
 		new String:arg[32];
