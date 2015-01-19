@@ -9,10 +9,11 @@ Simply download and compile. The config will be generated at /cfg/sourcemod/deat
 
 - Blocking Radio Commands
 - Tracking of how many rounds since a player was T
-- Queue System which prioritizes random selection. Viewable from a menu.
+- Queue System which has priority over random selection. Viewable from a menu.
 - Disable plugin if its not a deathrun map (Ability to disable this feature included)
 - Full blocking of changing to T team manually.
 - Disable autoswitching based on players on server.
+- Player can't be T consecutively unless allowed to.
 
 ####Commands
 
