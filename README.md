@@ -20,7 +20,7 @@ A more complete solution for deathrun servers. With flexibility and simplicity i
 *	**deathrundr_enable** Enable or disable the Deathrun Done Right; 0 - disabled, 1 - enabled
 *	**deathrundr_check_maps** Enable or disable the checking of whether or not the map is deathrun. 0 disabled, 1 - enabled
 *	**deathrundr_rounds_as_t** How many consecutive rounds can you play as T?
-*	**deathrundr_block_radio** Should radio commands be blocked?
+*	**deathrundr_block_radio** Should radio commands be blocked? 0 disabled, 1 - enabled.
 *	**deathrundr_enable_queue** Enable or disable the T-queue implementation. 0 disabled, 1 - enabled.
 
 
