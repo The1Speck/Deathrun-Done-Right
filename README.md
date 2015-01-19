@@ -26,10 +26,13 @@ A more complete solution for deathrun servers. With flexibility and simplicity i
 
 ##Features (Planned)
 
-* ~~Queue system~~ __Added in v1.0__
+* ~~Queue system~~  _Added in v1.0_
 * Priority System
-* ~~Prevention of consecutive Ting~~ __Added in v1.0__
+* ~~Prevention of consecutive Ting~~  _Added in v1.0_
 * Integrated timed respawns
 * Optional 1v1 finish
 * Rankings
 * Rewarding the CT who kills the T (letting them be T next round).
+
+###Credits
+[bobbobagan's original Deathrun Plugin](https://forums.alliedmods.net/showthread.php?t=129907) and [databomb's CTBans Plugin](https://forums.alliedmods.net/showthread.php?t=166080). As well as the entire AlliedMods [forum](https://forums.alliedmods.net/index.php).
