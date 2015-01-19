@@ -13,7 +13,7 @@ Simply download and compile. The config will be generated at /cfg/sourcemod/deat
 - Disable plugin if its not a deathrun map (Ability to disable this feature included)
 - Full blocking of changing to T team manually.
 - Disable autoswitching based on players on server.
-- Player can't be T consecutively unless allowed to.
+- Player can't be T consecutively unless allowed to. _Not implemented yet.._
 
 ####Commands
 
